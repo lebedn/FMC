@@ -7,7 +7,21 @@ $(document).ready(function() {
         swipe: false,
         slidesToShow: 1,
         dots: true,
+        adaptiveHeight: true,
         speed: 600
+
+
+
     });
     new WOW().init();
+});
+$('ul.experimental_solutions__tabs').on('click', 'li:not(.experimental_solutions__tab_active)', function() {
+    $(this)
+        .addClass('experimental_solutions__tab_active').siblings().removeClass('experimental_solutions__tab_active')
+        .closest('div.container').find('div.experimental_solutions__content').removeClass('experimental_solutions__content_active').eq($(this).index()).addClass('experimental_solutions__content_active');
+});
+$(document).ready(function() {
+    $('.your-class').slick({
+
+    });
 });

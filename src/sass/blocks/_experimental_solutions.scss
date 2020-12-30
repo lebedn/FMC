@@ -1,0 +1,56 @@
+.experimental_solutions {
+    padding: 79px 0 61px 0;
+    min-height: 889px;
+    background: url('../img/bg/tabs.jpg') center (center / cover) no-repeat;
+    &__title {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35.99px;
+        text-align: center;
+    }
+    &__tabs {
+        padding: 7px 30px 9px 30px;
+        margin: 25px auto 0 auto;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        width: 843px;
+        min-height: 65px;
+        border: 1px solid #ffffff;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    &__tab {
+        border-right: 1px solid rgba($color: #ffff, $alpha: .4);
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        padding: 0 15px 0 25px;
+        line-height: 48px;
+        cursor: pointer;
+        &:hover {
+            color: $main-color;
+        }
+        &:last-child {
+            border-right: none;
+            padding-right: none;
+        }
+    }
+    &__content {
+        margin: 35px;
+        display: none;
+        &_active {
+            display: block;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__slider {
+        width: 947px;
+        height: 560px;
+    }
+}

@@ -1,14 +1,22 @@
 .promo {
-    position: relative;
     &__carousel {
         max-width: 1920px;
-        width: 100%;
+        height: 100vh;
         position: relative;
         height: 730px;
         margin: 0 auto;
         &_item {
             position: relative;
+            &_btn {
+                position: absolute;
+                top: 500px;
+                left: 200px;
+            }
         }
+    }
+    .slick-slide,
+    .slick-track {
+        height: 100vh;
     }
     .slick-dots {
         left: 50%;
@@ -76,7 +84,7 @@
             color: #ffffff;
             font-size: 13px;
             font-weight: 700;
-            line-height: 26px;
+            line-height: 18px;
             text-align: right;
             text-transform: uppercase;
             &:hover {
@@ -110,10 +118,5 @@
         position: absolute;
         top: 131px;
         right: 180px;
-    }
-    &_btn {
-        position: absolute;
-        bottom: 145px;
-        left: 200px;
     }
 }

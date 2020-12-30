@@ -83,36 +83,70 @@
             </div>
         </div>
     </header>
-    <section class="promo">
-        <div class="container">
-            <div class="promo__logo"><img src="icons/logo.svg" alt="logo"></div>
-            <nav>
-                <ul class="menu">
-                    <li class="menu__item">
-                        <a href="#"></a>главная</li>
-                    <li class="menu__item">
-                        <a href="#"></a>Модули</li>
-                    <li class="menu__item">
-                        <a href="#"></a>Отрасли</li>
-                    <li class="menu__item">
-                        <a href="#"></a>О нас</li>
-                    <li class="menu__item">
-                        <a href="#"></a>Наши обязательства</li>
-                </ul>
-            </nav>
-        </div>
+    <div class="promo">
         <div class="promo__carousel">
             <div class="promo__carousel_item">
                 <img src="img/bg/promo.jpg" alt="bg">
+                <div class="promo__logo"><img src="icons/logo.svg" alt="logo"></div>
+                <nav>
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="#"></a>главная</li>
+                        <li class="menu__item">
+                            <a href="#"></a>Модули</li>
+                        <li class="menu__item">
+                            <a href="#"></a>Отрасли</li>
+                        <li class="menu__item">
+                            <a href="#"></a>О нас</li>
+                        <li class="menu__item">
+                            <a href="#"></a>Наши обязательства</li>
+                    </ul>
+                </nav>
                 <h2 class="promo__subtitle">Управляй своим бизнесом через Smartphone</h2>
                 <h1 class="promo__title">PRENGI - Платформа для прозрачного управления бизнесом</h1>
-                <button class="button promo_btn">Получить доступ</button>
-                <div class="promo__smartphone"><img src="img/promo/smartphone.png" alt="smartphone"></div>
+                <button class="button promo__carousel_item_btn">Получить доступ</button>
+                <div class="promo__smartphone">
+                    <img src="img/promo/smartphone.png" alt="smartphone">
+                </div>
             </div>
-            <div class="promo__carousel_item"><img src="img/promo/phone_3.jpg" alt="bg"></div>
-            <div class="promo__carousel_item"><img src="img/promo/fon_2.jpg" alt="bg"></div>
+            <div class="promo__carousel_item">
+                <div class="promo__logo"><img src="icons/logo.svg" alt="logo"></div>
+                <nav>
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="#"></a>главная</li>
+                        <li class="menu__item">
+                            <a href="#"></a>Модули</li>
+                        <li class="menu__item">
+                            <a href="#"></a>Отрасли</li>
+                        <li class="menu__item">
+                            <a href="#"></a>О нас</li>
+                        <li class="menu__item">
+                            <a href="#"></a>Наши обязательства</li>
+                    </ul>
+                </nav>
+                <img src="img/promo/phone_3.jpg" alt="bg">
+            </div>
+            <div class="promo__carousel_item">
+                <div class="promo__logo"><img src="icons/logo.svg" alt="logo"></div>
+                <nav>
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="#"></a>главная</li>
+                        <li class="menu__item">
+                            <a href="#"></a>Модули</li>
+                        <li class="menu__item">
+                            <a href="#"></a>Отрасли</li>
+                        <li class="menu__item">
+                            <a href="#"></a>О нас</li>
+                        <li class="menu__item">
+                            <a href="#"></a>Наши обязательства</li>
+                    </ul>
+                </nav>
+                <img src="img/promo/fon_2.jpg" alt="bg">
+            </div>
         </div>
-    </section>
+    </div>
     <section class="cprengi">
         <div class="container">
 
@@ -141,19 +175,19 @@
 
             <div class="cprengi__wrapper">
 
-                <div class="cprengi__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="0s">
+                <div class="cprengi__item animate__animated animate__fadeIn wow" data-wow-duration="2s" data-wow-delay="0s">
                     <img src="img/cprengi/expenses.png" alt="expenses">
                     <div class="cprengi__text cprengi__text_b">Все затраты спланированы и расписаны</div>
 
                 </div>
 
-                <div class="cprengi__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="cprengi__item animate__animated animate__fadeIn wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/cprengi/analytics.png" alt="analytics">
                     <div class=" cprengi__text cprengi__text_b">Корректная аналитика данных online</div>
 
                 </div>
 
-                <div class="cprengi__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1.5s">
+                <div class="cprengi__item animate__animated animate__fadeIn wow" data-wow-duration="2s" data-wow-delay="1.5s">
                     <img src="img/cprengi/integration.png" alt="integration">
                     <div class=" cprengi__text cprengi__text_b">Простая интеграция с любым Вашим ПО</div>
 
@@ -162,10 +196,49 @@
         </div>
 
     </section>
+    <section class="experimental_solutions">
+        <div class="container">
+            <h2 class="experimental_solutions__title">Prengi предоставляет экспертные решения для Вашей отрасли</h2>
+            <ul class="nav nav-tabs" role="tablist">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
 
+                </ul>
+            </ul>
+            <ul class="experimental_solutions__tabs nav nav-tabs" role="tablist">
+                <li class="experimental_solutions__tab experimental_solutions__tab_active">Prengi Production</li>
+                <li class="experimental_solutions__tab">Prengi FMC </li>
+                <li class="experimental_solutions__tab">Prengi Mallz Retail</li>
+                <li class="experimental_solutions__tab">Prengi Logistic </li>
+                <li class="experimental_solutions__tab">Prengi IT </li>
+                <li class="experimental_solutions__tab">Prengi HR</li>
+            </ul>
+            <div class="experimental_solutions__content experimental_solutions__content_active"><img src="img/tabs/macbook.png" alt="slide1"></div>
+            <div class="experimental_solutions__content"><img src="img/tabs/slide1.png" alt="slide2"></div>
+            <div class="experimental_solutions__content"><img src="img/tabs/slide3.png" alt="slide3"></div>
+            <div class="experimental_solutions__content"><img src="img/tabs/slide4.png" alt="slide4"></div>
+            <div class="experimental_solutions__content"><img src="img/tabs/slide5.png" alt="slide5"></div>
+            <div class="experimental_solutions__content"><img src="img/tabs/slide3.png" alt="slide5"></div>
+
+            <div class="controls">
+                <a href="#" class="btn btn-default prev">
+                    <img src="img/left.svg" alt="left">
+                </a>
+                <a href="#" class="btn btn-default next">
+                    <img src="img/right.svg" alt="right">
+                </a>
+            </div>
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
