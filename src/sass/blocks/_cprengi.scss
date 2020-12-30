@@ -1,0 +1,48 @@
+.cprengi {
+    padding: 79px 0 81px 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        grid-template-rows: minmax(245px, auto);
+        justify-content: center;
+        column-gap: 31px;
+    }
+    &__item {
+        position: relative;
+        width: 360px;
+        height: 255px;
+        border: 1px solid #ececec;
+        padding: 0 84px 0 84px;
+    }
+    &__text {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 250px;
+        color: #393939;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        text-align: center;
+        position: absolute;
+        bottom: 20px;
+        &_b {
+            font-weight: 700;
+        }
+    }
+    &__strela {
+        margin-top: 50px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__title {
+        text-align: center;
+        margin: 33px 0 37px 0;
+        color: #393939;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 30.04px;
+        text-transform: uppercase;
+    }
+}

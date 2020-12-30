@@ -1,0 +1,119 @@
+.promo {
+    position: relative;
+    &__carousel {
+        max-width: 1920px;
+        width: 100%;
+        position: relative;
+        height: 730px;
+        margin: 0 auto;
+        &_item {
+            position: relative;
+        }
+    }
+    .slick-dots {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 68px;
+        position: absolute;
+        width: 70px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        button {
+            margin-left: 3px;
+            width: 11px;
+            height: 11px;
+            border: 1px solid #ffffff;
+            border-radius: 100%;
+            font-size: 0;
+            background: none;
+            outline: none !important;
+        }
+    }
+    .slick-dots {
+        .slick-active {
+            button {
+                background-color: #ffffff;
+            }
+        }
+    }
+    .slick-prev,
+    .slick-next {
+        position: absolute;
+        border: none;
+        z-index: 10;
+        border: none;
+    }
+    .slick-next {
+        bottom: 79px;
+        right: 47%;
+        left: auto;
+        outline: none !important;
+        background: none;
+    }
+    .slick-prev {
+        bottom: 79px;
+        left: 47%;
+        outline: none !important;
+        background: none;
+    }
+    &__logo {
+        z-index: 1;
+        position: absolute;
+        top: 39px;
+        left: 180px;
+    }
+    .menu {
+        position: absolute;
+        z-index: 1;
+        top: 70px;
+        right: 183px;
+        width: 540px;
+        display: flex;
+        justify-content: space-around;
+        &__item {
+            list-style-type: none;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 26px;
+            text-align: right;
+            text-transform: uppercase;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+    &__subtitle {
+        position: absolute;
+        top: 237px;
+        width: 524px;
+        left: 200px;
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: left;
+    }
+    &__title {
+        left: 200px;
+        position: absolute;
+        top: 353px;
+        width: 426px;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: left;
+    }
+    &__smartphone {
+        position: absolute;
+        top: 131px;
+        right: 180px;
+    }
+    &_btn {
+        position: absolute;
+        bottom: 145px;
+        left: 200px;
+    }
+}

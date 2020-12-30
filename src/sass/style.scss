@@ -1,0 +1,14 @@
+@import 'libs/bootstrap-reboot.min';
+@import'libs/slick';
+@import 'base/variables';
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@import'blocks/header';
+@import'blocks/promo';
+@import'blocks/button';
+@import'blocks/cprengi';
+@import'libs/animate';
