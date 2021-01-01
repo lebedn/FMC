@@ -1,0 +1,40 @@
+.variant {
+    position: relative;
+    margin-top: 80px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 960px);
+        justify-content: center;
+        align-content: center;
+    }
+    &__item {
+        position: relative;
+        width: 960px;
+        height: 580px;
+        &_1 {
+            background: url('../img/variant/vault.jpg') no-repeat;
+            &::after {
+                content: '';
+                z-index: 1;
+                position: absolute;
+                width: 167px;
+                height: 167px;
+                background-color: #00c2f0;
+            }
+        }
+        &_2 {
+            background: url('../img/variant/server.jpg') no-repeat;
+        }
+    }
+    &__title {
+        position: absolute;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35.99px;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50px;
+    }
+}

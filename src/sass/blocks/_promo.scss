@@ -1,15 +1,25 @@
 .promo {
     &__carousel {
-        max-width: 1920px;
         height: 100vh;
         position: relative;
-        height: 730px;
         margin: 0 auto;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('../img/bg/promo.jpg');
         &_item {
+            height: 100vh;
+            @extend .promo__carousel;
             position: relative;
+            &_2 {
+                background-image: url('../img/promo/phone_3.jpg');
+            }
+            &_3 {
+                background-image: url('../img/promo/fon_2.jpg');
+            }
             &_btn {
                 position: absolute;
-                top: 500px;
+                bottom: 180px;
                 left: 200px;
             }
         }
@@ -66,10 +76,7 @@
         background: none;
     }
     &__logo {
-        z-index: 1;
-        position: absolute;
-        top: 39px;
-        left: 180px;
+        margin: 39px 0 0 180px;
     }
     .menu {
         position: absolute;
@@ -116,7 +123,7 @@
     }
     &__smartphone {
         position: absolute;
-        top: 131px;
+        bottom: 0;
         right: 180px;
     }
 }

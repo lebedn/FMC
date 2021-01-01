@@ -1,0 +1,51 @@
+.advantages {
+    padding: 81px 0 80px 0;
+    &__title {
+        color: #393939;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35.99px;
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 44px;
+        display: grid;
+        grid-template-columns: repeat(2, 570px);
+        justify-content: center;
+    }
+    &__item {
+        width: 570px;
+        height: 355px;
+        &_1 {
+            background: url('../img/advantage/clock.jpg') center center/cover no-repeat;
+        }
+        &_2 {
+            background: url('../img/advantage/Intellect.jpg') center center/cover no-repeat;
+        }
+        &_3 {
+            background: url('../img/advantage/advantages.jpg') center center/cover no-repeat;
+        }
+        &_4 {
+            background: url('../img/advantage/smartfon.jpg') center center/cover no-repeat;
+        }
+        &_5 {
+            background: url('../img/advantage/business_processes.jpg') center center/cover no-repeat;
+        }
+        &_6 {
+            background: url('../img/advantage/card.jpg') center center/cover no-repeat;
+        }
+    }
+    &__decsr {
+        margin-top: 100px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        width: 570px;
+        height: 156px;
+        padding: 39px 131px 41px 131px;
+        background-color: rgba($color: #000000, $alpha: 0.44);
+    }
+}
