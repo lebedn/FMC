@@ -1,0 +1,55 @@
+.footer {
+    padding: 49px 0 40px 0;
+    background-color: #0082a1;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 465px 263px 177px 111px;
+        justify-content: center;
+        align-content: center;
+        column-gap: 73px;
+    }
+    &_subtitle {
+        text-align: left;
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &_item {
+        &_1 {
+            margin-left: 114px;
+            img {
+                display: block;
+                margin: 20px 0 20px 0;
+            }
+        }
+    }
+    &__descr {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 19px;
+        text-align: left;
+    }
+    ul {
+        list-style-type: none;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    hr {
+        margin: 40px auto 0 auto;
+        width: 1171px;
+        height: 1px;
+        opacity: 0.3;
+    }
+    &_text {
+        margin-top: 40px;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17px;
+        text-align: center;
+    }
+}

@@ -2,39 +2,74 @@
     position: relative;
     margin-top: 80px;
     &__wrapper {
-        display: grid;
-        grid-template-columns: repeat(2, 960px);
+        display: flex;
         justify-content: center;
-        align-content: center;
     }
     &__item {
+        padding-top: 272px;
         position: relative;
         width: 960px;
         height: 580px;
         &_1 {
             background: url('../img/variant/vault.jpg') no-repeat;
+            text-align: right;
             &::after {
                 content: '';
+                right: 28px;
+                top: 225px;
                 z-index: 1;
                 position: absolute;
                 width: 167px;
                 height: 167px;
-                background-color: #00c2f0;
+                background-color: rgba($color: $main-color, $alpha: 0.3)
             }
         }
         &_2 {
             background: url('../img/variant/server.jpg') no-repeat;
+            text-align-last: left;
+            &::after {
+                content: '';
+                left: 28px;
+                top: 225px;
+                z-index: 1;
+                position: absolute;
+                width: 167px;
+                height: 167px;
+                background-color: rgba($color: $main-color, $alpha: 0.3)
+            }
         }
     }
     &__title {
+        width: 371px;
+        z-index: 1;
         position: absolute;
         color: #ffffff;
-        font-size: 30px;
-        font-weight: 400;
+        font-size: 28px;
+        font-weight: 700;
         line-height: 35.99px;
         text-align: center;
         left: 50%;
         transform: translateX(-50%);
         top: 50px;
+    }
+    &__subtitle {
+        z-index: 1;
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 22px;
+        text-transform: uppercase;
+    }
+    &__decsr {
+        z-index: 1;
+        margin-top: 20px;
+        width: 483px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        text-align: right;
     }
 }
