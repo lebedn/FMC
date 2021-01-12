@@ -78,6 +78,9 @@
     &__logo {
         margin: 39px 0 0 180px;
     }
+    &__logo575 {
+        display: none;
+    }
     .menu {
         position: absolute;
         z-index: 1;
@@ -125,5 +128,8 @@
         position: absolute;
         bottom: 0;
         right: 180px;
+    }
+    &__smartphone_1200 {
+        display: none;
     }
 }

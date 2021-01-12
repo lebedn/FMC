@@ -1,0 +1,282 @@
+@media (max-width: 1439px) {
+    .promo {
+        .menu {
+            right: 20px;
+        }
+        &__smartphone {
+            right: 20px;
+        }
+        &__logo {
+            margin: 39px 0 0 85px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+        &__item {
+            margin-left: 12px;
+            width: 100%
+        }
+        &__text {
+            font-size: 10px;
+        }
+        &__title {
+            font-size: 12px;
+        }
+    }
+    .promo {
+        &__smartphone_1200 {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+        }
+        &__smartphone {
+            display: none;
+        }
+        &__subtitle {
+            left: 100px;
+            font-size: 38px;
+        }
+        &__title {
+            left: 100px;
+        }
+        &__carousel_item_btn {
+            left: 100px;
+            bottom: 160px;
+        }
+        .slick-next {
+            bottom: 79px;
+            right: 46%;
+        }
+        .slick-prev {
+            bottom: 79px;
+            left: 46%;
+        }
+    }
+    .cprengi {
+        &__wrapper {
+            grid-template-columns: repeat(2, 350px);
+            row-gap: 31px;
+        }
+    }
+    .experimental_solutions {
+        .controls {
+            display: none;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            grid-template-columns: repeat(2, 350px);
+            justify-content: center;
+        }
+        &__item {
+            width: 350px;
+        }
+        &__decsr {
+            width: 350px;
+            padding: 40px 25px 41px 25px;
+            font-size: 20px;
+        }
+    }
+    .variant {
+        &__decsr {
+            margin: 40px 0 0 82px;
+            font-size: 15px;
+            width: 300px;
+            &_right {
+                margin: 40px 82px 0 0;
+            }
+        }
+        &__subtitle {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .promo {
+        &__smartphone_1200 {
+            display: none;
+        }
+        &__logo {
+            margin: 42px 0 0 35px;
+        }
+        .menu {
+            width: 450px;
+        }
+        .slick-next {
+            bottom: 79px;
+            right: 45%;
+        }
+        .slick-prev {
+            bottom: 79px;
+            left: 45%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        display: none;
+    }
+    .promo {
+        .menu {
+            top: 40px;
+            right: 10px;
+            width: 400px;
+            &__item {
+                font-size: 12px;
+            }
+        }
+        &__logo {
+            display: none;
+        }
+        &__logo575 {
+            display: block;
+            margin: 39px 0 0 20px;
+        }
+        &__subtitle {
+            left: 50px;
+            font-size: 36px;
+        }
+        &__title {
+            left: 50px;
+            font-size: 22px;
+        }
+        &__carousel_item_btn {
+            left: 135px;
+            bottom: 200px;
+        }
+        .slick-next {
+            bottom: 79px;
+            right: 44%;
+        }
+        .slick-prev {
+            bottom: 79px;
+            left: 44%;
+        }
+    }
+    .cprengi {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, 350px);
+            row-gap: 31px;
+            justify-content: center;
+        }
+    }
+    .variant {
+        &__wrapper {
+            display: grid;
+            grid-template-columns: repeat(2, auto-fit);
+            justify-content: center;
+        }
+        &__decsr {
+            &_right {
+                text-align: left;
+                left: 0;
+                margin-left: 82px;
+            }
+        }
+        .square {
+            &_right {
+                left: 42px;
+            }
+        }
+        &__subtitle {
+            font-size: 20px;
+            &_right {
+                text-align: left;
+                margin-left: 82px;
+                left: 0;
+            }
+        }
+        &__item {
+            width: 550px;
+            height: 536px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        &__logo575 {
+            margin: 20px 0 0 10px;
+        }
+        .menu {
+            top: 70px;
+            right: 10px;
+            width: 315px;
+            &__item {
+                font-size: 10px;
+            }
+        }
+        &__subtitle {
+            left: 50px;
+            font-size: 23px;
+            width: 300px;
+            line-height: 38px;
+        }
+        &__title {
+            width: 300px;
+            left: 50px;
+            font-size: 16px;
+            top: 325px;
+        }
+        &__carousel_item_btn {
+            left: 50px;
+            bottom: 180px;
+        }
+        .slick-next {
+            bottom: 79px;
+            right: 40%;
+        }
+        .slick-prev {
+            bottom: 79px;
+            left: 40%;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, 350px);
+            justify-content: center;
+        }
+        &__item {
+            width: 350px;
+        }
+        &__decsr {
+            width: 350px;
+            padding: 40px 25px 41px 25px;
+            font-size: 20px;
+        }
+    }
+    .variant {
+        &__wrapper {
+            display: grid;
+            grid-template-columns: (1, 1fr);
+        }
+        &__title {
+            font-size: 20px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__item {
+            padding-top: 170px;
+            width: 350px;
+            height: 450px;
+        }
+        &__decsr {
+            width: 257px;
+            font-size: 12px;
+        }
+        .square {
+            top: 145px;
+        }
+    }
+    .gaining_access {
+        &__title {
+            font-size: 22px;
+        }
+    }
+}
