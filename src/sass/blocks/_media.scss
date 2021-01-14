@@ -93,6 +93,12 @@
             font-size: 20px;
         }
     }
+    .footer {
+        &__wrapper {
+            grid-template-columns: 350px 200px 100px 50px;
+            column-gap: 40px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -113,6 +119,12 @@
         .slick-prev {
             bottom: 79px;
             left: 45%;
+        }
+    }
+    .footer {
+        &__wrapper {
+            grid-template-columns: 300px 120px 100px 50px;
+            column-gap: 30px;
         }
     }
 }
@@ -196,6 +208,18 @@
             height: 536px;
         }
     }
+    .footer {
+        &__wrapper {
+            grid-template-columns: 300px 120px 100px 50px;
+            column-gap: 30px;
+        }
+        &_item_2 {
+            display: none;
+        }
+        &__descr {
+            display: none;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -204,7 +228,7 @@
             margin: 20px 0 0 10px;
         }
         .menu {
-            top: 70px;
+            top: 90px;
             right: 10px;
             width: 315px;
             &__item {
@@ -276,7 +300,25 @@
     }
     .gaining_access {
         &__title {
-            font-size: 22px;
+            font-size: 18px;
+        }
+    }
+    .footer {
+        &__wrapper {
+            grid-template-columns: 200px 80px;
+            column-gap: 20px;
+        }
+        &_item_1 {
+            margin-left: 0;
+        }
+        &_item_2 {
+            display: none;
+        }
+        &__descr {
+            display: none;
+        }
+        &_item_3 {
+            display: none;
         }
     }
 }
